@@ -20,3 +20,7 @@ Aqui vai ter várias informações sobre git e github;
 - Branche "short-lived"(vida curta) = é uma branche criada separada da main, onde você faz as features que são as novas funcionalidades, correções, etc do sistema, geralmente elas são deletadas após a integração.
 
 - git checkout = utilizada para trocar de branches.
+- git checkout -b "nome-da-branch" = serve para criar uma nova branch.
+
+- git push --set-upstream origin nova-feature = serve para mandar o que tem na branch criada para a branch principal (main) usando o pull request;
+- Pull Request = uma solicitação do desenvolvedor para mandar uma nova feature para o código principal da branch main;
